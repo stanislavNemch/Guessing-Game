@@ -7,7 +7,7 @@ function checkGuess() {
     const feedbackElement = document.getElementById("feedback");
     let guess = Number(inputElement.value);
     while (attempts > 0) {
-        console.log(randomNumber);
+        // console.log(randomNumber); Для проверки числа
         if (guess === randomNumber) {
             attempts = 0;
             feedbackElement.innerHTML =
